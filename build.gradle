@@ -19,6 +19,8 @@ test{
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.projectlombok:lombok:1.18.26'
+	implementation 'io.github.mangkyu:spring-boot-test-automock:0.0.5'
+    implementation 'au.com.dius:pact-jvm-provider-junit5-spring:4.0.10'
 	annotationProcessor('org.projectlombok:lombok:1.18.26')
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
